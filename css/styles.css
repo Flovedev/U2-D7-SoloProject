@@ -2,6 +2,7 @@ body {
     margin-left: 2vh;
     background-color: #141414;
     overflow-x: hidden;
+    color: #6F6E6C;
 }
 
 .row {
@@ -21,6 +22,11 @@ body {
 .avatar {
     width: 30px;
     height: 30px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: linear-gradient(90deg, transparent 0, hsla(0, 0%, 7%, 0.6));
 }
 
 h2 {
