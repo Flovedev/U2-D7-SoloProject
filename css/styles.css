@@ -24,16 +24,22 @@ body {
     height: 30px;
 }
 
-.carousel-control-next:hover,
-.carousel-control-prev:hover {
-    background-color: linear-gradient(90deg, transparent 0, hsla(0, 0%, 7%, 0.6));
+.carousel-control-next,
+.carousel-control-prev {
+    width: 50px;
+
 }
 
-img {
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    cursor: pointer;
+}
+
+.carousel-item>div div:hover {
     transition: transform 0.5s;
 }
 
-img:hover {
+.carousel-item>div div:hover {
     transform: scale(1.2);
     z-index: 2;
 }
