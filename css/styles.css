@@ -29,6 +29,15 @@ body {
     background-color: linear-gradient(90deg, transparent 0, hsla(0, 0%, 7%, 0.6));
 }
 
+img {
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
 h2 {
     margin-bottom: 0;
 }
