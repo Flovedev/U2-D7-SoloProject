@@ -35,16 +35,6 @@ body {
     cursor: pointer;
 }
 
-.carousel-item>div div:hover {
-    transition: transform 0.5s;
-}
-
-.carousel-item>div div:hover {
-    transform: scale(1.2);
-    z-index: 2;
-    cursor: pointer;
-}
-
 h2 {
     margin-bottom: 0;
 }
@@ -52,3 +42,32 @@ h2 {
 h4 {
     margin-top: 4vh;
 }
+
+.movie-card {
+    color: #141414;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+/* .movie-card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+} */
+
+/* .card-body {
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+    overflow: hidden;
+    background-color: red;
+    z-index: 2;
+    background-image: linear-gradient(rgba(27, 37, 48, 0), #1b2530 48px);
+    transform: translateY(-62px);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.5s;
+}
+
+.card-card:hover .infos-container {
+    opacity: 1;
+    transform: translateY(-48px);
+} */
