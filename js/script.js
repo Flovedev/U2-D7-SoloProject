@@ -42,7 +42,7 @@ const addMedia = (movies) => {
                             <h5 class="card-title">${name}</h5>
                             <p class="card-text">${description}</p>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">${category}</li>
+                                <li class="list-group-item bg-dark">${category}</li>
                             </ul>
                         </div>
                     </div>`

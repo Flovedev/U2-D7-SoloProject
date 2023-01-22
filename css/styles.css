@@ -85,3 +85,8 @@ h4 {
     opacity: 1;
     transform: translateY(130px);
 }
+
+.list-group-item img {
+    width: 100px;
+    height: 70px;
+}
