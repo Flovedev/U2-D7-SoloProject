@@ -86,7 +86,7 @@
     </nav>
 
     <!-- form -->
-    <div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="container d-flex justify-content-center align-items-center my-5">
         <!-- name, description, price and time -->
         <form class="w-75">
             <div class="form-group">
@@ -115,12 +115,20 @@
             <button class="btn btn-primary" onclick="backOffice(); return false">
                 Save movie
             </button>
-            <button class="btn btn-success" onclick="">
+            <button class="btn btn-success" onclick="backOffice()">
                 Edit movie
             </button>
         </form>
     </div>
 
+    <div class="container mt-5">
+        <h3 class="mt-5">Action</h3>
+        <ul class="list-group" id="action-bo"></ul>
+        <h3 class="mt-5">Comedy</h3>
+        <ul class="list-group" id="comedy-bo"></ul>
+        <h3 class="mt-5">Horror</h3>
+        <ul class="list-group" id="horror-bo"></ul>
+    </div>
 
 
     <script src="./js/backoffice.js"></script>
